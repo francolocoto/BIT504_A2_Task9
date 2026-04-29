@@ -11,7 +11,19 @@ public class Main {
 				System.out.println("It is nice to meet you!\n");
 				System.out.println("What do you like to order:\n" +
 				"1. Chocolate\n2. Vanilla\n3. Strawberry.\n");
-
-
+				
+				String order = scanner.next();
+				
+				if (order.equals("1")) {
+					System.out.println("One order of Chocolate icecream coming right up.");
+				}
+				
+				else if (order.equals("2")) {
+					System.out.println("One order of Vanilla icecream coming right up.");
+				}
+				
+				else if (order.equals("3")) {
+					System.out.println("One order of Strawberry icecream coming right up");
+				}
 	}
 }
